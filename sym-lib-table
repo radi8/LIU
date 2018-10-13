@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Audio_gj)(type Legacy)(uri /home/gvj/Kicad/AA-repos/library_gj/Audio_gj.lib)(options "")(descr ""))
+)
