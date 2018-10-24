@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L LIU-rescue:M5226P-Audio_gj-LIU-rescue U4
+L LIU-rescue:M5226P-Audio_gj-LIU-rescue-LIU-rescue U4
 U 1 1 5BB2C5EE
 P 8025 1500
 F 0 "U4" H 8075 2067 50  0000 C CNN
@@ -1094,7 +1094,7 @@ Wire Wire Line
 Wire Wire Line
 	5250 3200 5325 3200
 $Comp
-L LIU-rescue:M5226P-Audio_gj-LIU-rescue U5
+L LIU-rescue:M5226P-Audio_gj-LIU-rescue-LIU-rescue U5
 U 1 1 5BFD85DB
 P 8025 4125
 F 0 "U5" H 8075 4692 50  0000 C CNN
