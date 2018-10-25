@@ -174,11 +174,11 @@ X B 3 250 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# LIU-rescue_M5226P-Audio_gj-LIU-rescue-LIU-rescue
+# LIU-rescue_M5226P-Audio_gj-LIU-rescue-LIU-rescue-LIU-rescue
 #
-DEF LIU-rescue_M5226P-Audio_gj-LIU-rescue-LIU-rescue U 0 20 Y Y 1 F N
+DEF LIU-rescue_M5226P-Audio_gj-LIU-rescue-LIU-rescue-LIU-rescue U 0 20 Y Y 1 F N
 F0 "U" -200 450 50 H V C CNN
-F1 "LIU-rescue_M5226P-Audio_gj-LIU-rescue-LIU-rescue" -300 -550 50 H V C CNN
+F1 "LIU-rescue_M5226P-Audio_gj-LIU-rescue-LIU-rescue-LIU-rescue" -300 -550 50 H V C CNN
 F2 "" 0 -400 50 H I C CNN
 F3 "" 0 -400 50 H I C CNN
 $FPLIST
