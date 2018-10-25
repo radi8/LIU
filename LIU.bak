@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L LIU-rescue:M5226P-Audio_gj-LIU-rescue U4
+L LIU-rescue:M5226P-Audio_gj-LIU-rescue-LIU-rescue U4
 U 1 1 5BB2C5EE
 P 8025 1500
 F 0 "U4" H 8075 2067 50  0000 C CNN
@@ -361,13 +361,13 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J1
 U 1 1 5BB3D09E
-P 800 2825
-F 0 "J1" H 750 3025 50  0000 L CNN
-F 1 "Audio Input" H 475 2950 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 800 2825 50  0001 C CNN
-F 3 "~" H 800 2825 50  0001 C CNN
-	1    800  2825
-	-1   0    0    -1  
+P 800 2925
+F 0 "J1" H 750 3050 50  0000 L CNN
+F 1 "Audio In" H 600 2675 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 800 2925 50  0001 C CNN
+F 3 "~" H 800 2925 50  0001 C CNN
+	1    800  2925
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	4875 2425 4875 2500
@@ -1094,7 +1094,7 @@ Wire Wire Line
 Wire Wire Line
 	5250 3200 5325 3200
 $Comp
-L LIU-rescue:M5226P-Audio_gj-LIU-rescue U5
+L LIU-rescue:M5226P-Audio_gj-LIU-rescue-LIU-rescue U5
 U 1 1 5BFD85DB
 P 8025 4125
 F 0 "U5" H 8075 4692 50  0000 C CNN
@@ -1434,13 +1434,13 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J2
 U 1 1 5BFD86A7
-P 800 5325
-F 0 "J2" H 750 5525 50  0000 L CNN
-F 1 "Audio Input" H 475 5450 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 800 5325 50  0001 C CNN
-F 3 "~" H 800 5325 50  0001 C CNN
-	1    800  5325
-	-1   0    0    -1  
+P 800 5425
+F 0 "J2" H 775 5575 50  0000 L CNN
+F 1 "Audio In" H 600 5175 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 800 5425 50  0001 C CNN
+F 3 "~" H 800 5425 50  0001 C CNN
+	1    800  5425
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	4875 4925 4875 5000
@@ -1969,7 +1969,7 @@ L power:GND #PWR01
 U 1 1 5C1F1C08
 P 1000 3000
 F 0 "#PWR01" H 1000 2750 50  0001 C CNN
-F 1 "GND" H 1100 3000 50  0000 C CNN
+F 1 "GND" H 1100 3000 50  0001 C CNN
 F 2 "" H 1000 3000 50  0001 C CNN
 F 3 "" H 1000 3000 50  0001 C CNN
 	1    1000 3000
@@ -1982,7 +1982,7 @@ L power:GND #PWR02
 U 1 1 5C20F535
 P 1000 5575
 F 0 "#PWR02" H 1000 5325 50  0001 C CNN
-F 1 "GND" H 1100 5575 50  0000 C CNN
+F 1 "GND" H 1100 5575 50  0001 C CNN
 F 2 "" H 1000 5575 50  0001 C CNN
 F 3 "" H 1000 5575 50  0001 C CNN
 	1    1000 5575
