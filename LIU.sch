@@ -15,17 +15,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L LIU-rescue:M5226P-Audio_gj-LIU-rescue-LIU-rescue-LIU-rescue U4
-U 1 1 5BB2C5EE
-P 8025 1500
-F 0 "U4" H 8075 2067 50  0000 C CNN
-F 1 "M5226P" H 8075 1976 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm_LongPads" H 8025 1100 50  0001 C CNN
-F 3 "http://www.elparadise.com/public/epepdfs/M5226P.pdf" H 8025 1100 50  0001 C CNN
-	1    8025 1500
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R_POT RV9
 U 1 1 5BB2C7C3
 P 6775 2900
@@ -1093,17 +1082,6 @@ Wire Wire Line
 	5250 3050 5250 3200
 Wire Wire Line
 	5250 3200 5325 3200
-$Comp
-L LIU-rescue:M5226P-Audio_gj-LIU-rescue-LIU-rescue-LIU-rescue U5
-U 1 1 5BFD85DB
-P 8025 4125
-F 0 "U5" H 8075 4692 50  0000 C CNN
-F 1 "M5226P" H 8075 4601 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm_LongPads" H 8025 3725 50  0001 C CNN
-F 3 "http://www.elparadise.com/public/epepdfs/M5226P.pdf" H 8025 3725 50  0001 C CNN
-	1    8025 4125
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R_POT RV10
 U 1 1 5BFD85E2
@@ -2569,4 +2547,26 @@ Wire Wire Line
 Connection ~ 4250 6250
 Wire Wire Line
 	4250 6250 4625 6250
+$Comp
+L Audio_gj:M5226P U4
+U 1 1 5BDF3123
+P 8025 1500
+F 0 "U4" H 8075 2067 50  0000 C CNN
+F 1 "M5226P" H 8075 1976 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_LongPads" H 8025 1100 50  0001 C CNN
+F 3 "http://www.elparadise.com/public/epepdfs/M5226P.pdf" H 8025 1100 50  0001 C CNN
+	1    8025 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Audio_gj:M5226P U5
+U 1 1 5BDF3730
+P 8025 4125
+F 0 "U5" H 8075 4692 50  0000 C CNN
+F 1 "M5226P" H 8075 4601 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_LongPads" H 8025 3725 50  0001 C CNN
+F 3 "http://www.elparadise.com/public/epepdfs/M5226P.pdf" H 8025 3725 50  0001 C CNN
+	1    8025 4125
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

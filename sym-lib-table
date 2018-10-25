@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name LIU-rescue)(type Legacy)(uri ${KIPRJMOD}/LIU-rescue.lib)(options "")(descr ""))
+  (lib (name Audio_gj)(type Legacy)(uri /home/gvj/Kicad/AA-repos/library_gj/Audio_gj.lib)(options "")(descr ""))
 )
